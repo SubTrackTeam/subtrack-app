@@ -11,6 +11,8 @@ import SwiftUI
 struct Company: Hashable, Identifiable {
     let id = UUID()
     var name: String
+    var tagline: String
+    var description: String
     var monthly_price: Float
     
     var imageName: String
