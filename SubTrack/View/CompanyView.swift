@@ -28,7 +28,7 @@ struct CompanyView: View {
                         .font(.subheadline)
                     }
                 }
-                .padding(.top, 30)
+                .padding(.top, 20)
                 .padding(.bottom, 10)
                 Text(company.description)
                 .font(.callout)
@@ -58,6 +58,7 @@ struct CompanyView: View {
                 Text("More like this")
                     .fontWeight(.bold)
                     .font(.title)
+                    .padding(.top, 20)
                     .frame(width: 303, height: 43, alignment: .topLeading)
             }
         }

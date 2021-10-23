@@ -12,29 +12,31 @@ struct SubscriptionCell: View {
     var company: Company
 
     var body: some View {
-        HStack {
-            company.image
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 35, height: 35)
-                .padding(.trailing, 8)
-                .padding(.leading, 15)
+        NavigationLink(destination: CompanyView(company: company)) {
+            HStack {
+                company.image
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 35, height: 35)
+                    .padding(.trailing, 8)
+                    .padding(.leading, 15)
+                    
+                Text(company.name)
+                    .font(.callout)
 
-            Text(company.name)
-                .font(.callout)
-            
-            Spacer()
+                Spacer()
 
-            Text(String(format: "$%.2f", company.monthly_price))
-                .font(.subheadline)
-                .frame(width: 50, alignment: .trailing)
-                .padding(.trailing, 15)
+                Text(String(format: "$%.2f", company.monthly_price))
+                    .font(.subheadline)
+                    .frame(width: 50, alignment: .trailing)
+                    .padding(.trailing, 15)
+            }
+            .frame(width: 346, height: 54)
+            .background(Color(red: 0.97, green: 0.97, blue: 0.97, opacity: 0.50))
+            .cornerRadius(10)
         }
-        .frame(width: 346, height: 54)
-        .background(Color(red: 0.97, green: 0.97, blue: 0.97, opacity: 0.50))
-        .cornerRadius(10)
+        .buttonStyle(PlainButtonStyle())
     }
-
 }
 
 struct SubscriptionCell_Previews: PreviewProvider {
