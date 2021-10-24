@@ -17,8 +17,20 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
-        
-        CurrentSubscriptionsView()
+        TabView {
+            CurrentSubscriptionsView()
+                .tabItem {
+                    Image("my_subscriptions")
+                }
+            ExploreView()
+                .tabItem {
+                    Image("explore")
+                }
+            AccountView()
+                .tabItem{
+                    Image("account")
+                }
+        }
     }
 
 

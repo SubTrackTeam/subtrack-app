@@ -11,21 +11,25 @@ import SwiftUI
 struct ExploreView: View {
     @State private var search_str: String = ""
     var body: some View {
-        TextField(
-            "Search subscriptions",
-            text: $search_str
-        )
-        .font(.subheadline)
-        .padding(.leading, 22)
-        .padding(.trailing, 149)
-        .padding(.top, 11)
-        .padding(.bottom, 10)
-        .frame(width: 317, height: 41)
-        .background(Color(red: 0.95, green: 0.95, blue: 0.95))
-        .cornerRadius(15)
-        Text("Explore")
-        .fontWeight(.bold)
-        .font(.title)
+        ScrollView{
+            VStack(alignment: .leading) {
+                TextField(
+                    "Search subscriptions",
+                    text: $search_str
+                )
+                .font(.subheadline)
+                .padding(.leading, 22)
+                .padding(.trailing, 149)
+                .padding(.top, 11)
+                .padding(.bottom, 10)
+                .frame(width: 317, height: 41)
+                .background(Color(red: 0.95, green: 0.95, blue: 0.95))
+                .cornerRadius(15)
+                Text("Explore")
+                .fontWeight(.bold)
+                .font(.title)
+            }
+        }
     }
 }
 
