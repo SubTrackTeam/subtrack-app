@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct SubscriptionCell: View {
+    
+    @State var companies: [Company]
     var company: Company
 
     var body: some View {
@@ -36,6 +38,11 @@ struct SubscriptionCell: View {
             .cornerRadius(10)
         }
         .buttonStyle(PlainButtonStyle())
+        .onAppear() {
+            Api().getCompanyData { (companies) in
+                self.companies = companies
+            }
+        }
     }
 }
 

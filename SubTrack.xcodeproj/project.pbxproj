@@ -23,6 +23,7 @@
 		96ABAE99272416DD00D2CFD3 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABAE98272416DD00D2CFD3 /* Company.swift */; };
 		96ABAE9B2724178F00D2CFD3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABAE9A2724178F00D2CFD3 /* ModelData.swift */; };
 		96ABAE9D2724838800D2CFD3 /* CompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABAE9C2724838200D2CFD3 /* CompanyView.swift */; };
+		A255D53F272531B1000F9C22 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255D53E272531B1000F9C22 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		96ABAE98272416DD00D2CFD3 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		96ABAE9A2724178F00D2CFD3 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		96ABAE9C2724838200D2CFD3 /* CompanyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyView.swift; sourceTree = "<group>"; };
+		A255D53E272531B1000F9C22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				967C8FEC2723F7990019A0E0 /* ContentView.swift */,
+				A255D53E272531B1000F9C22 /* HomeView.swift */,
 				961D2D942724E39C00690AF4 /* AccountView.swift */,
 				96ABAE9127240A8100D2CFD3 /* CurrentSubscriptionsView.swift */,
 				961D2D922724D96F00690AF4 /* ExploreView.swift */,
@@ -309,6 +312,7 @@
 				96ABAE99272416DD00D2CFD3 /* Company.swift in Sources */,
 				96ABAE9B2724178F00D2CFD3 /* ModelData.swift in Sources */,
 				96ABAE94272415C200D2CFD3 /* SubscriptionCell.swift in Sources */,
+				A255D53F272531B1000F9C22 /* HomeView.swift in Sources */,
 				967C8FEB2723F7990019A0E0 /* SubTrackApp.swift in Sources */,
 				96ABAE9D2724838800D2CFD3 /* CompanyView.swift in Sources */,
 			);
