@@ -8,8 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct Company: Hashable, Identifiable {
-    let id = UUID()
+struct Company: Hashable, Identifiable, Codable {
+    var id: String
     var name: String
     var tagline: String
     var description: String
