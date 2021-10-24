@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961D2D932724D96F00690AF4 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961D2D922724D96F00690AF4 /* ExploreView.swift */; };
 		967C8FEB2723F7990019A0E0 /* SubTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C8FEA2723F7990019A0E0 /* SubTrackApp.swift */; };
 		967C8FED2723F7990019A0E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C8FEC2723F7990019A0E0 /* ContentView.swift */; };
 		967C8FEF2723F79C0019A0E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967C8FEE2723F79C0019A0E0 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		961D2D922724D96F00690AF4 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		967C8FE72723F7990019A0E0 /* SubTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		967C8FEA2723F7990019A0E0 /* SubTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTrackApp.swift; sourceTree = "<group>"; };
 		967C8FEC2723F7990019A0E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				967C8FEC2723F7990019A0E0 /* ContentView.swift */,
 				96ABAE9127240A8100D2CFD3 /* CurrentSubscriptionsView.swift */,
+				961D2D922724D96F00690AF4 /* ExploreView.swift */,
 				96ABAE93272415C200D2CFD3 /* SubscriptionCell.swift */,
 				96ABAE9C2724838200D2CFD3 /* CompanyView.swift */,
 			);
@@ -298,6 +301,7 @@
 				967C8FF42723F79C0019A0E0 /* Persistence.swift in Sources */,
 				967C8FED2723F7990019A0E0 /* ContentView.swift in Sources */,
 				96ABAE9227240A8100D2CFD3 /* CurrentSubscriptionsView.swift in Sources */,
+				961D2D932724D96F00690AF4 /* ExploreView.swift in Sources */,
 				96ABAE99272416DD00D2CFD3 /* Company.swift in Sources */,
 				96ABAE9B2724178F00D2CFD3 /* ModelData.swift in Sources */,
 				96ABAE94272415C200D2CFD3 /* SubscriptionCell.swift in Sources */,
